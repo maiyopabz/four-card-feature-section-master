@@ -1,9 +1,10 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 * {
     box-sizing: border-box;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 p, h2, h3 {
     margin: 0;
@@ -40,4 +41,133 @@ header {
     font-size: 0.9375rem;
     font-weight: 400;
     opacity: .5;
+  }
+
+  .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-body {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  opacity: .5;
+}
+
+.container-flex {
+  margin: 0 auto;
+  padding: 0 1em 0 1em;
+  max-width: 1350px;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(57, 50, 194, 0.23);
+  margin-bottom: 2em;
+  max-width: 350px;
+  max-height: 250px;
+}
+
+.card-content {
+  padding: 2em 2em;;
+}
+
+.icon-container {
+  margin-top: 3em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .parent {
+      display: flex;
+      height: 100vh;
+      justify-content: space-around;
+  }
+
+  .child1 {
+      width: 200px;
+      height: 200px; 
+  }
+
+  .child2 {
+    width: 200px;
+    height: 200px; 
+   
+}
+
+.child3 {
+    width: 200px;
+    height: 200px; 
+}
+
+.child4 {
+    width: 200px;
+    height: 200px; 
+}
+
+
+/*card individual color */
+.teal {
+    border-top: 5px solid #44D3D2;
+  }
+  
+  .red {
+    border-top: 5px solid #EA5454;
+  }
+  
+  .orange {
+    border-top: 5px solid #FCAE4A;
+  }
+  
+  .blue {
+    border-top: 5px solid #549EF2;
+  }
+
+  footer {
+    margin-top: 3em;
+  }
+  
+  @media (min-width: 850px) {
+
+    .page-heading,
+    .page-sub-heading {
+      font-size: 2.25rem;
+    }
+  
+    .container-flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      width: 350px;
+      height: 250px;
+    }
+  
+    .teal {
+      margin-right: 2em;
+    }
+  
+    .red {
+      margin-right: 2em;
+    }
+  
+    .card-container-center {
+      display: flex;
+      order: 1;
+    }
+  
+  }
+
+  @media (min-width: 1150px) {
+
+    .card-container-center {
+      flex-direction: column;
+      order: 0;
+    }
+  
   }
