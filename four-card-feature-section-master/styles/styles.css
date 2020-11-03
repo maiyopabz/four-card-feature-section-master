@@ -1,0 +1,43 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+}
+
+p, h2, h3 {
+    margin: 0;
+}
+
+body {
+
+    margin: 0;
+    color: #4D4F62;
+    font-family: 'Poppins', sans-serif;
+   
+
+  }
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4em 1em;
+    max-width: 550px;
+}
+
+.heading__page{
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+  
+  .sub__heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .sub__paragraph {
+    margin-top: 1em;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    opacity: .5;
+  }
